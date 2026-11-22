@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blurfnes — Beginning and The End</title>
+  <meta name="description" content="Blurfnes — Beginning and The End. 20 tracks, 10 calm, 10 chaos. Coming soon on Hyard Records.">
+  <meta property="og:title" content="Blurfnes — Beginning and The End">
+  <meta property="og:image" content="assets/bate-cover.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+  <!-- Icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-spotify" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="11" fill="currentColor"/>
+      <path d="M6.5 9.2c3.8-1.1 8-.8 11.2 1M7 12.4c3.2-.9 6.6-.6 9.3.9M7.6 15.4c2.6-.7 5.2-.5 7.3.7" fill="none" stroke="var(--icon-cut, #000)" stroke-width="1.7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24">
+      <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-soundcloud" viewBox="0 0 24 24">
+      <path d="M10 8.5c1-.6 2.1-.9 3.3-.9 3 0 5.4 2.1 5.9 4.9.3-.1.6-.1.9-.1 1.7 0 3 1.3 3 3s-1.3 3-3 3H10z" fill="currentColor"/>
+      <path d="M1 14.5v3M3.5 12.5v5M6 11v6.5M8.3 9.8v7.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-apple" viewBox="0 0 24 24">
+      <path d="M9 18.5V6.2l11-2.2v12.3" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="6.6" cy="18.5" r="2.6" fill="currentColor"/>
+      <circle cx="17.6" cy="16.3" r="2.6" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-deezer" viewBox="0 0 24 24">
+      <path d="M2 17h4v2H2zM7 17h4v2H7zM12 17h4v2h-4zM17 17h5v2h-5zM7 13.5h4v2H7zM12 13.5h4v2h-4zM17 13.5h5v2h-5zM12 10h4v2h-4zM17 10h5v2h-5zM17 6.5h5v2h-5z" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24">
+      <rect x="1.5" y="5" width="21" height="14" rx="4" fill="currentColor"/>
+      <path d="M10 9v6l5.2-3z" fill="var(--icon-cut, #000)"/>
+    </symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24">
+      <path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5M14 3c.4 2.6 2.3 4.5 5 4.8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </svg>
+
+  <header class="nav on-dark" id="top">
+    <a class="nav-logo" href="#top">BLURFNES</a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#lovro">Lovro</a>
+      <a href="#blurfnes">Blurfnes</a>
+      <a href="#discography">Discography</a>
+      <a href="#hyard">Hyard</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Scroll progress bar: navy → red -->
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <main>
+    <!-- 1. Hero -->
+    <section class="hero" id="bate">
+      <div class="hero-bg" style="background-image:url('assets/bate-cover.jpg')" data-parallax></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow" data-slide="up">Blurfnes · New album</p>
+        <h1 class="hero-title">
+          <span class="hero-line" data-slide="left"><span class="beg">Beginning</span></span>
+          <span class="hero-and" data-slide="up" style="--d:300ms">and</span>
+          <span class="hero-line" data-slide="right" style="--d:150ms"><span class="end">The End</span></span>
+        </h1>
+        <ul class="hero-meta" data-slide="up" style="--d:500ms">
+          <li>20 tracks</li>
+          <li><span class="navy-text">10 calm</span> / <span class="red-text">10 chaos</span></li>
+          <li>Hyard Records</li>
+        </ul>
+        <p class="hero-status" data-slide="up" style="--d:650ms">Coming soon</p>
+      </div>
+      <a class="scroll-cue" href="#lovro" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- 2. Lovro Bedenk — white & navy -->
+    <section class="persona persona-lovro" id="lovro">
+      <div class="persona-media" data-wipe="left">
+        <div class="frame"><img src="assets/lovro.jpg" alt="Lovro Bedenk looking up, in white" loading="lazy"></div>
+      </div>
+      <div class="persona-text">
+        <p class="kicker" data-slide="right">The Beginning</p>
+        <h2 class="persona-name" data-words>Lovro Bedenk</h2>
+        <p data-slide="right" style="--d:150ms">Before the mask, there's Lovro. Six years of music school on oboe and piano, two years in an orchestra and over 30 solo performances built a classical foundation long before the first synth came in.</p>
+        <p data-slide="right" style="--d:300ms">He now studies audio engineering and sound design, refining both the technical and the creative side of sound. On the record he's the calm half: warm synths, orchestral textures and room to breathe.</p>
+        <ul class="facts" data-slide="up" style="--d:450ms">
+          <li><strong>6</strong><span>years of music school</span></li>
+          <li><strong>30+</strong><span>solo performances</span></li>
+          <li><strong>10</strong><span>calm tracks</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. The shift — pinned, scroll-linked -->
+    <section class="shift" id="shift" aria-label="From the Beginning to The End">
+      <div class="shift-sticky">
+        <div class="shift-row shift-row-a"><span>The Beginning</span><span>The Beginning</span><span>The Beginning</span></div>
+        <div class="shift-row shift-row-b"><span>The End</span><span>The End</span><span>The End</span></div>
+        <p class="shift-caption">Keep scrolling</p>
+      </div>
+    </section>
+
+    <!-- 4. Blurfnes — black & red -->
+    <section class="persona persona-blurfnes" id="blurfnes">
+      <div class="persona-text">
+        <p class="kicker" data-slide="left">The End</p>
+        <h2 class="persona-name" data-words>Blurfnes</h2>
+        <p data-slide="left" style="--d:150ms">Then the mask goes on. Blurfnes is the project Lovro started in 2023, and the alter ego that runs it: heavier, louder, more confrontational. Orchestral textures crash into hard synth basses, raw analog synthesis and bass rooted in trap, with techno cuts like No Time To Waste and Mainstage Suspension along the way.</p>
+        <p data-slide="left" style="--d:300ms">In 2024 Blurfnes founded Hyard Records and collaborates often with Rave Saint and Blueexnetic. Live sets run on a looping setup inspired by Paul Kalkbrenner: real-time composition, slow build-ups and a fully immersive show.</p>
+        <ul class="facts" data-slide="up" style="--d:450ms">
+          <li><strong>2023</strong><span>project founded</span></li>
+          <li><strong>Hyard</strong><span>own label, 2024</span></li>
+          <li><strong>10</strong><span>chaos tracks</span></li>
+        </ul>
+      </div>
+      <div class="persona-media" data-wipe="right">
+        <div class="frame"><img src="assets/blurfnes.jpg" alt="Blurfnes in a hood and mask" loading="lazy"></div>
+      </div>
+    </section>
+
+    <!-- 5. Corridor gallery — slides sideways with scroll -->
+    <section class="gallery" style="--texture:url('assets/the-end-texture.jpg')" aria-label="Beginning and The End visuals">
+      <div class="gallery-track" data-hscroll>
+        <figure><img src="assets/corridor-banner.jpg" alt="Masked figure in a concrete corridor" loading="lazy"></figure>
+        <figure><img src="assets/corridor-1.jpg" alt="Masked figure, close up" loading="lazy"></figure>
+        <figure><img src="assets/corridor-2.jpg" alt="Masked figure walking down a corridor" loading="lazy"></figure>
+        <figure><img src="assets/corridor-3.jpg" alt="Hooded figure in a corridor" loading="lazy"></figure>
+        <figure><img src="assets/corridor-4.jpg" alt="Masked figure under a single light" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <!-- 6. Discography -->
+    <section class="discography" id="discography">
+      <div class="section-head">
+        <h2 class="section-title" data-words>Discography</h2>
+        <a class="pill" href="https://open.spotify.com/artist/4wik1BSfL1Vh3rOHdGxsCt" target="_blank" rel="noopener" data-slide="right">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg> Follow on Spotify
+        </a>
+      </div>
+      <div class="release-grid">
+        <a class="release" href="https://open.spotify.com/track/2UiacntWDputclDdQfoYFx" target="_blank" rel="noopener" aria-label="Play Speed of Sound (Minimal Remix) on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02eff954d36172d769e4879fe7" alt="Speed of Sound (Minimal Remix) cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Speed of Sound (Minimal Remix)</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/4RYXwu9NxeXx0YFKdYgkYa" target="_blank" rel="noopener" aria-label="Play Eternal on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02e534cab6d8dc2a2b09704ab9" alt="Eternal cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Eternal</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/4x6xwSFOTthtVG3tERzp0i" target="_blank" rel="noopener" aria-label="Play Maximus on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02ef683ca2ddc9ce4e0ebc54bd" alt="Maximus cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Maximus</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/album/3Itnj0J4LI55gWWbzY0xZZ" target="_blank" rel="noopener" aria-label="Play Miss the Way / Don&#x27;t Go on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02b3dddc0514af55d603e51e82" alt="Miss the Way / Don&#x27;t Go cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Miss the Way / Don&#x27;t Go</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/3H4l3DKewHIIWhTQPbzHXD" target="_blank" rel="noopener" aria-label="Play The End on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02e9559ebc4db5d65ddcabc609" alt="The End cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">The End</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/album/2eNNaOIvBBX1qgo4OgBI5Y" target="_blank" rel="noopener" aria-label="Play Envision on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02e7b4127b3b6114e2f8cf3000" alt="Envision cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Envision</span><span class="release-kind">EP</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/6Wg53B5LPcpI5BCYSGga6L" target="_blank" rel="noopener" aria-label="Play Give Me Techno (Remix) on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e0213748902ba927d5b836f2af8" alt="Give Me Techno (Remix) cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Give Me Techno (Remix)</span><span class="release-kind">Single · w/ Rave Saint</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/6un1dpnUALxhaPb7YN1jYf" target="_blank" rel="noopener" aria-label="Play Inhale (Blurfnes Remix) on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02af015d4ebee47c44f949b966" alt="Inhale (Blurfnes Remix) cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Inhale (Blurfnes Remix)</span><span class="release-kind">Single · w/ Rave Saint</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/4t1Odlh2xh3sIUWPfqsnoo" target="_blank" rel="noopener" aria-label="Play Metacol on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e026ebc679c57ef1769986305ef" alt="Metacol cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Metacol</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/1c7rhA0XFwVfwRzpMhnQk8" target="_blank" rel="noopener" aria-label="Play Love Me Hard on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02d2cee45c271c7c3549d7d3db" alt="Love Me Hard cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Love Me Hard</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/2NSQ8tayBM51jRTv1WtTCy" target="_blank" rel="noopener" aria-label="Play Speed of Sound on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e0254a0798da2508b9d87c40483" alt="Speed of Sound cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Speed of Sound</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/3wqEtWcXi0nWR3rQLvaItI" target="_blank" rel="noopener" aria-label="Play No Time To Waste (2026 Remaster) on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e026ea12af2885f20e279fa50f3" alt="No Time To Waste (2026 Remaster) cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">No Time To Waste (2026 Remaster)</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/67IoJHCEtNQVQ4VkWjKaOi" target="_blank" rel="noopener" aria-label="Play Disturbance on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02ae76d8c6b5be80d0d6e3d9ba" alt="Disturbance cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Disturbance</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/1VQAtwKVHFBvYAmwEXfF9U" target="_blank" rel="noopener" aria-label="Play Give Me Techno on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02b8b4990c803f03ed0bbc6e5a" alt="Give Me Techno cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Give Me Techno</span><span class="release-kind">Single · w/ Rave Saint</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/album/5sC27mciBaK1wUbxusYyBD" target="_blank" rel="noopener" aria-label="Play Ramiro on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e0284e0a9884ee190346aea8fb4" alt="Ramiro cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Ramiro</span><span class="release-kind">EP</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/14u72mjdAVF284hobE9ejM" target="_blank" rel="noopener" aria-label="Play Riot on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e027d2438b6bfeeba116cf676a1" alt="Riot cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Riot</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/64QosfOORpL3l9d3w4p18s" target="_blank" rel="noopener" aria-label="Play Friction on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e026bf40657fe0bd9fc7014a591" alt="Friction cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Friction</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/album/6XLDXVVJQPc6ilXOS9ZyOw" target="_blank" rel="noopener" aria-label="Play Antarctica on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02bd7536663be8e5e4e5eb35c5" alt="Antarctica cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Antarctica</span><span class="release-kind">EP · w/ Rave Saint</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/0otQTF9OMGoUoPpulhzyNx" target="_blank" rel="noopener" aria-label="Play Taste of Your Love on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02f40b9446be42c36b0ad409d9" alt="Taste of Your Love cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Taste of Your Love</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/7npSKkGidgk3t4IHTeNnsu" target="_blank" rel="noopener" aria-label="Play No Time to Waste on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e0217a408139ce609259cf8f64a" alt="No Time to Waste cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">No Time to Waste</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/album/4OjblEFRYUuUj77fZmPrIy" target="_blank" rel="noopener" aria-label="Play Fate on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02a274f3dd74add56ff660ae7e" alt="Fate cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Fate</span><span class="release-kind">EP</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/29tipHzfshn0Nnvppj5SHn" target="_blank" rel="noopener" aria-label="Play Resign on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e024cf2f3a465cd3555739a94fb" alt="Resign cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Resign</span><span class="release-kind">Single · w/ Rave Saint</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/7aO23BdHbYemU8iXjlnRgT" target="_blank" rel="noopener" aria-label="Play Modest on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e02b584708bffc032448045e979" alt="Modest cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Modest</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+        <a class="release" href="https://open.spotify.com/track/0dtIrkDHihYsU3HuZJr3w0" target="_blank" rel="noopener" aria-label="Play Mainstage Suspension on Spotify">
+          <img src="https://i.scdn.co/image/ab67616d00001e0241c7a38016b33bc888a6dc89" alt="Mainstage Suspension cover" loading="lazy" width="300" height="300">
+          <span class="release-info"><span class="release-title">Mainstage Suspension</span><span class="release-kind">Single</span></span>
+          <svg class="release-play" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- 7. Hyard Records -->
+    <section class="label" id="hyard">
+      <div class="label-inner">
+        <p class="kicker" data-slide="left">The label</p>
+        <h2 class="section-title" data-words>Hyard Records</h2>
+        <p class="label-text" data-slide="left" style="--d:150ms">Independent techno and rave label, founded by Blurfnes in 2024. Releases, radio and demo submissions all live on the Hyard site.</p>
+        <a class="label-link" href="https://hyardrecords.com" target="_blank" rel="noopener" data-slide="right" style="--d:300ms">hyardrecords.com <span aria-hidden="true">→</span></a>
+      </div>
+      <p class="label-mark" aria-hidden="true">Hyard</p>
+    </section>
+
+    <!-- 8. Listen & follow -->
+    <section class="links" id="links">
+      <div class="section-head">
+        <h2 class="section-title" data-words>Listen &amp; follow</h2>
+      </div>
+      <div class="links-grid">
+        <div class="links-group">
+          <p class="kicker" data-slide="left">Listen</p>
+          <a class="link-row" href="https://open.spotify.com/artist/4wik1BSfL1Vh3rOHdGxsCt" target="_blank" rel="noopener" data-slide="left" style="--d:60ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spotify"/></svg><span>Spotify</span><i aria-hidden="true">→</i></a>
+          <a class="link-row" href="https://music.apple.com/us/artist/blurfnes/1551872501" target="_blank" rel="noopener" data-slide="left" style="--d:120ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-apple"/></svg><span>Apple Music</span><i aria-hidden="true">→</i></a>
+          <a class="link-row" href="https://www.deezer.com/artist/145204602" target="_blank" rel="noopener" data-slide="left" style="--d:180ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-deezer"/></svg><span>Deezer</span><i aria-hidden="true">→</i></a>
+          <a class="link-row" href="https://soundcloud.com/blur-fnes" target="_blank" rel="noopener" data-slide="left" style="--d:240ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-soundcloud"/></svg><span>SoundCloud</span><i aria-hidden="true">→</i></a>
+          <a class="link-row" href="https://www.youtube.com/@blurfnes" target="_blank" rel="noopener" data-slide="left" style="--d:300ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-youtube"/></svg><span>YouTube</span><i aria-hidden="true">→</i></a>
+        </div>
+        <div class="links-group">
+          <p class="kicker" data-slide="right">Follow</p>
+          <a class="link-row" href="https://www.instagram.com/blurfnes" target="_blank" rel="noopener" data-slide="right" style="--d:60ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-instagram"/></svg><span>Instagram</span><em>@blurfnes</em><i aria-hidden="true">→</i></a>
+          <a class="link-row" href="https://www.tiktok.com/@blurfnes" target="_blank" rel="noopener" data-slide="right" style="--d:120ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-tiktok"/></svg><span>TikTok</span><em>@blurfnes</em><i aria-hidden="true">→</i></a>
+          <a class="link-row" href="https://www.youtube.com/@blurfnes" target="_blank" rel="noopener" data-slide="right" style="--d:180ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-youtube"/></svg><span>YouTube</span><em>@blurfnes</em><i aria-hidden="true">→</i></a>
+          <a class="link-row" href="https://soundcloud.com/blur-fnes" target="_blank" rel="noopener" data-slide="right" style="--d:240ms"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-soundcloud"/></svg><span>SoundCloud</span><em>blur-fnes</em><i aria-hidden="true">→</i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 9. Contact -->
+  <footer class="footer" id="contact">
+    <p class="footer-big" data-slide="up">Bookings &amp; inquiries</p>
+    <a class="footer-mail" href="mailto:blurfnes@hyardrecords.com" data-slide="left" style="--d:120ms">blurfnes@hyardrecords.com</a>
+    <div class="socials" data-slide="right" style="--d:240ms">
+      <a href="https://www.instagram.com/blurfnes" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><use href="#i-instagram"/></svg></a>
+      <a href="https://soundcloud.com/blur-fnes" target="_blank" rel="noopener" aria-label="SoundCloud"><svg viewBox="0 0 24 24"><use href="#i-soundcloud"/></svg></a>
+      <a href="https://open.spotify.com/artist/4wik1BSfL1Vh3rOHdGxsCt" target="_blank" rel="noopener" aria-label="Spotify"><svg viewBox="0 0 24 24"><use href="#i-spotify"/></svg></a>
+      <a href="https://music.apple.com/us/artist/blurfnes/1551872501" target="_blank" rel="noopener" aria-label="Apple Music"><svg viewBox="0 0 24 24"><use href="#i-apple"/></svg></a>
+      <a href="https://www.tiktok.com/@blurfnes" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><use href="#i-tiktok"/></svg></a>
+      <a href="https://www.youtube.com/@blurfnes" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><use href="#i-youtube"/></svg></a>
+    </div>
+    <p class="footer-small">Hyard Records · ©2026 Blurfnes</p>
+  </footer>
+
+  <script src="main.js?v=5"></script>
+</body>
+</html>
